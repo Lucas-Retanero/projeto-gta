@@ -171,7 +171,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
     display: none;
     opacity: 0;
 }
@@ -185,41 +185,26 @@ body {
     padding: 20px;
 }
 
-.compre-ja  .btn-plataforma .plataforma li:nth-child(1){
+#ps {
     border: 1px solid #00439c;
 }
 
-.compre-ja  .btn-plataforma .plataforma li:nth-child(1):hover{
+#ps:hover {
     background-color: #00439c;
 }
-.compre-ja  .btn-plataforma .plataforma li:nth-child(2){
+#xbox {
     border: 1px solid #387a26;
 }
 
-.compre-ja  .btn-plataforma .plataforma li:nth-child(2):hover{
+#xbox:hover {
     background-color: #387a26;
 }
 
-.compre-ja .btn-plataforma .plataforma li:nth-child(3) {
-    border: 1px solid #00439c;
-}
-
-.compre-ja .btn-plataforma .plataforma li:nth-child(3):hover {
-    background-color: #00439c;
-}
-
-.compre-ja .btn-plataforma .plataforma li:nth-child(4) {
-    border: 1px solid #387a26; 
-}
-
-.compre-ja .btn-plataforma .plataforma li:nth-child(4):hover {
-    background-color: #387a26;
-}
-.compre-ja .btn-plataforma .plataforma li:nth-child(5) {
+#pc {
     border: 1px solid #fcaf17; 
 }
 
-.compre-ja .btn-plataforma .plataforma li:nth-child(5):hover {
+#pc:hover {
     background-color: #fcaf17;
 }
 
